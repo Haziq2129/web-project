@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Gallery — Shamil Haziq</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+	<header class="site-header">
+	  <div class="container nav-inner">
+		<div class="brand">Shamil Haziq<span class="dot">.</span></div>
+		<nav aria-label="Main Navigation">
+		  <ul class="nav">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="biodata.html">Biodata</a></li>
+			<li><a href="education.html">Education</a></li>
+			<li><a href="experience.html">Experience</a></li>
+			<li><a href="family.html">Family</a></li>
+			<li><a class="active" href="gallery.html">Gallery</a></li>
+			<li><a href="contact.html">Contact</a></li>
+		  </ul>
+		</nav>
+		
+		<!-- Theme Toggle Button -->
+		<button id="theme-toggle" class="theme-toggle" aria-label="Toggle light/dark mode">
+		  <span class="icon-light">☀️</span>
+		  <span class="icon-dark">🌙</span>
+		</button>
+	  </div>
+	</header>
+
+  <!-- Hero Section -->
+  <section class="hero split-hero" data-animate="fade-in">
+    <div class="container hero-inner">
+      <div class="hero-column hero-copy">
+        <h1 class="hero-title">My <span>Gallery</span></h1>
+        <p class="hero-sub">A showcase of my hobbies, interests, and the moments that capture my personality.</p>
+      </div>
+
+      <div class="hero-column hero-media">
+        <img src="Photography Collection/20250713_184154.jpg" alt="Gallery Main Image" class="hero-image" />
+        <div class="badge">Memories & Moments</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section class="container card" data-animate="slide-up">
+    <h2>Photography Collection</h2><br>
+    <p>I enjoy capturing photos of scenery, architecture, people, and anything that inspires creativity.</p>
+
+    <div class="gallery-grid">
+      <img src="Photography Collection/20251122_1017061.jpg" alt="Gallery Image 1" />
+      <img src="Photography Collection/20251122_101752.jpg" alt="Gallery Image 2" />
+      <img src="Photography Collection/20251122_102131.jpg" alt="Gallery Image 3" />
+      <img src="Photography Collection/20251126_160523.jpg" alt="Gallery Image 4" />
+      <img src="Photography Collection/20240602_175705.jpg" alt="Gallery Image 5" />
+      <img src="Photography Collection/20250914_190743.jpg" alt="Gallery Image 6" />
+      <img src="Photography Collection/20231222_144611.jpg" alt="Gallery Image 7" />
+      <img src="Photography Collection/20240229_111742.jpg" alt="Gallery Image 8" />
+      <img src="Photography Collection/20240602_182902.jpg" alt="Gallery Image 9" />
+      <img src="Photography Collection/20240829_140451.jpg" alt="Gallery Image 10" />
+      <img src="Photography Collection/20240829_142601.jpg" alt="Gallery Image 11" />
+      <img src="Photography Collection/20240907_131623.jpg" alt="Gallery Image 12" />
+    </div>
+  </section>
+
+  <!-- My Memories Video Section -->
+  <section class="container card" data-animate="slide-up">
+    <h2>My Memories Video</h2><br>
+    <p>Take a look at my 2025 memories recap video — a collection of highlights from the year, capturing special moments and experiences.</p>
+    <br>
+    <video controls class="memories-video">
+		<source src="Video/2025_recap.mp4" type="video/mp4">
+	</video>
+  </section>
+
+  <!-- Music Hobby Section -->
+  <section class="container card" data-animate="fade-in">
+    <h2>My Music Hobby</h2><br>
+    <p>I love listening to music, especially songs by the K-pop girl group <strong>TWICE</strong> — their music always motivates and uplifts my mood.</p>
+
+    <!-- YouTube Cover Photo (Clickable) -->
+    <div class="youtube-cover">
+      <a href="https://youtu.be/AqMlXQfORm8?si=Q7MTIYBqbxX75BsS" target="_blank" rel="noopener">
+        <img src="YouTube Cover/TWICE YouTube Cover.jpg" alt="TWICE Music Video Cover" class="cover-image" />
+      </a>
+      <p class="cover-caption">Click the cover to watch on YouTube</p>
+    </div>
+  </section>
+
+  <!-- Favourite Songs Section -->
+  <section class="container card" data-animate="slide-up">
+    <h2>My Favourite Songs</h2><br>
+    <p>Here are some of my favorite tracks. Click play to listen!</p>
+
+    <div class="songs-grid">
+      <div class="song-card" data-src="Music/TWICE HEARTBREAK AVENUE.mp3">
+        <img src="Album cover/This Is For.jpeg" alt="This Is For" class="album-image" />
+        <h3>Heartbreak Avenue</h3>
+        <p>TWICE</p>
+        <button class="play-pause-btn">▶ Play</button>
+      </div>
+
+      <div class="song-card" data-src="Music/TWICE CRAZY STUPID LOVE.mp3">
+        <img src="Album cover/Ready To Be.jpg" alt="Ready To Be" class="album-image" />
+        <h3>Crazy Stupid Love</h3>
+        <p>TWICE</p>
+        <button class="play-pause-btn">▶ Play</button>
+      </div>
+
+      <div class="song-card" data-src="Music/Madison Beer bittersweet.mp3">
+        <img src="Album cover/Bittersweet.png" alt="Bittersweet" class="album-image" />
+        <h3>Bittersweet</h3>
+        <p>Madison Beer</p>
+        <button class="play-pause-btn">▶ Play</button>
+      </div>
+
+      <div class="song-card" data-src="Music/TWICE REWIND.mp3">
+        <img src="Album cover/Formula Of Love.jpg" alt="Formula Of Love" class="album-image" />
+        <h3>Rewind</h3>
+        <p>TWICE</p>
+        <button class="play-pause-btn">▶ Play</button>
+      </div>
+
+      <div class="song-card" data-src="Music/FIX A DRINK JEONGYEON.mp3">
+        <img src="Album cover/The Story Goes On.jpg" alt="The Story Goes On" class="album-image" />
+        <h3>Fix A Drink</h3>
+        <p>Jeongyeon TWICE</p>
+        <button class="play-pause-btn">▶ Play</button>
+      </div>
+
+      <div class="song-card" data-src="Music/Yuna Camaraderie.mp3">
+        <img src="Album cover/Masih Yuna.jpg" alt="Masih Yuna" class="album-image" />
+        <h3>Camaraderie</h3>
+        <p>Yuna</p>
+        <button class="play-pause-btn">▶ Play</button>
+      </div>
+
+      <div class="song-card" data-src="Music/Xdinary Heroes Little Things.mp3">
+        <img src="Album cover/Troubleshooting.jpg" alt="Troubleshooting" class="album-image" />
+        <h3>Little Things</h3>
+        <p>Xdinary Heroes</p>
+        <button class="play-pause-btn">▶ Play</button>
+      </div>
+
+      <div class="song-card" data-src="Music/Xdinary Heroes Dreaming Girl.mp3">
+        <img src="Album cover/Troubleshooting.jpg" alt="Troubleshooting" class="album-image" />
+        <h3>Dreaming Girl</h3>
+        <p>Xdinary Heroes</p>
+        <button class="play-pause-btn">▶ Play</button>
+      </div>
+    </div>
+
+    <!-- Hidden Audio Element -->
+    <audio id="audio-player" preload="none">
+      <source id="audio-source" src="" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+  </section>
+
+  <!-- My Favourite Album Section -->
+  <section class="container card" data-animate="slide-up">
+    <h2>My Favourite Album</h2><br>
+    <p>Check out one of my favourite albums on Spotify!</p><br>
+    <div class="spotify-embed">
+		<iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/album/5j07H7jnOu2gYRj1ZrPoak?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+	</div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">© 2025 • Muhamad Shamil Haziq</div>
+      <div class="footer-right"><a href="mailto:shamiilhzq@gmail.com">shamiilhzq@gmail.com</a></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
